@@ -5,7 +5,7 @@ Version:	0.93
 Release:	1
 License:	GPL
 Group:		Applications
-Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/cwtext/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/cwtext/%{name}-%{version}.tar.gz
 URL:		http://cwtext.sourceforge.net/
 BuildRequires:	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
