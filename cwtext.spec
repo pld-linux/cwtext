@@ -29,12 +29,10 @@ install -d $RPM_BUILD_ROOT%{_bindir}
 
 %{__make} install PREFIX=$RPM_BUILD_ROOT%{_prefix}
 
-gzip -9nf README TODO
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README TODO
 %attr(755,root,root) %{_bindir}/*
