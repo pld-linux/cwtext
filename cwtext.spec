@@ -7,7 +7,6 @@ License:	GPL
 Group:		Applications
 Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/cwtext/%{name}-%{version}.tar.gz
 URL:		http://cwtext.sourceforge.net/
-BuildRequires:	python
 BuildRequires:	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
