@@ -1,7 +1,7 @@
 Summary:	ASCII to International Morse Code converter
 Summary(pl):	Konwerter ASCII do Miêdzynarodowego Kodu Morse'a
 Name:		cwtext
-Version:	0.91
+Version:	0.93
 Release:	1
 License:	GPL
 Group:		Applications
