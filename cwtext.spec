@@ -11,6 +11,8 @@ URL:		http://cwtext.sourceforge.net/
 BuildRequires:	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		specflags_ia32	"-fomit-frame-pointer"
+
 %description
 ASCII to International Morse Code converter.
 
