@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://dl.sourceforge.net/cwtext/%{name}-%{version}.tar.gz
+# Source0-md5:	6ce26f56b3ba371eabe0308ddc4e118c
 URL:		http://cwtext.sourceforge.net/
 BuildRequires:	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
