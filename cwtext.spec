@@ -5,7 +5,7 @@ Version:	0.91
 Release:	1
 License:	GPL
 Group:		Applications
-Source0:	http://prdownloads.sourceforge.net/cwtext/%{name}-%{version}.tar.gz
+Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/cwtext/%{name}-%{version}.tar.gz
 URL:		http://cwtext.sourceforge.net/
 BuildRequires:	python
 BuildRequires:	python-modules
