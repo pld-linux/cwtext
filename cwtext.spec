@@ -1,5 +1,5 @@
 Summary:	ASCII to International Morse Code converter
-Summary(pl.UTF-8):   Konwerter ASCII do Międzynarodowego Kodu Morse'a
+Summary(pl.UTF-8):	Konwerter ASCII do Międzynarodowego Kodu Morse'a
 Name:		cwtext
 Version:	0.95
 Release:	1
