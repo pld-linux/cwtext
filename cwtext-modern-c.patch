@@ -1,0 +1,21 @@
+--- cwtext-0.96.org/morse.c	2026-05-20 23:36:06.855598664 +0200
++++ cwtext-0.96/morse.c	2026-05-20 23:36:10.092884007 +0200
+@@ -18,6 +18,7 @@
+ */
+ 
+ #include <stdio.h>
++#include <ctype.h>
+ 
+ #include "cw.h"
+ #include "morse.h"
+--- cwtext-0.96.org/pcm.c	2026-05-20 23:36:06.857824424 +0200
++++ cwtext-0.96/pcm.c	2026-05-20 23:36:15.089104574 +0200
+@@ -60,7 +60,7 @@
+   float samples;
+   float fsr;
+   
+-  if (!valid(hVox)) return;
++  if (!valid(hVox)) return 0;
+ 
+   timelen = (float) time;
+   fsr = (float) voxref(hVox).samplerate;

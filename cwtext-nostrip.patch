@@ -1,0 +1,15 @@
+--- cwtext-0.96.org/makefile	2026-05-20 23:36:56.233282508 +0200
++++ cwtext-0.96/makefile	2026-05-20 23:36:59.762884007 +0200
+@@ -3,9 +3,9 @@
+ ALL: cwtext cwpcm cwmm
+ 
+ install: ALL
+-	install -sc cwtext ${PREFIX}/bin
+-	install -sc cwpcm ${PREFIX}/bin
+-	install -sc cwmm ${PREFIX}/bin
++	install -c cwtext ${PREFIX}/bin
++	install -c cwpcm ${PREFIX}/bin
++	install -c cwmm ${PREFIX}/bin
+ 
+ cwmm: cwmm.o morse.o
+ 	${CC} ${CFLAGS} -o cwmm $^

@@ -2,11 +2,13 @@ Summary:	ASCII to International Morse Code converter
 Summary(pl.UTF-8):	Konwerter ASCII do Międzynarodowego Kodu Morse'a
 Name:		cwtext
 Version:	0.96
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		Applications
 Source0:	http://dl.sourceforge.net/cwtext/%{name}-%{version}.tar.gz
 # Source0-md5:	d5083cd92d255fba6ff425fbd68aa405
+Patch0:		%{name}-modern-c.patch
+Patch1:		%{name}-nostrip.patch
 URL:		http://cwtext.sourceforge.net/index.php
 BuildRequires:	python
 BuildRequires:	python-modules
@@ -22,6 +24,8 @@ Konwerter ASCII do Międzynarodowego Kodu Morse'a.
 
 %prep
 %setup -q
+%patch -P0 -p1
+%patch -P1 -p1
 
 %build
 %{__make} \
